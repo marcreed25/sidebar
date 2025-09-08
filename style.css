@@ -74,8 +74,12 @@ article {
 
 @media screen and (min-width: 481px) and (max-width: 680px) {
     #sidebar {
-        width: 10%;
+        width: 30%;
         font-size: .7em;
+    }
+
+    article {
+        width: calc(70%);
     }
 
     h1 {
@@ -83,7 +87,7 @@ article {
     }
 
     p {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
