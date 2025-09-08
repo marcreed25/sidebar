@@ -61,4 +61,7 @@ article {
     color: white;
     background-color: #181818;
     box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
