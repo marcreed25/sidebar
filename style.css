@@ -93,12 +93,20 @@ article {
 
 @media screen and (max-width: 515px) {
     #sidebar {
-        width: 100%;
+        /* width: 100%; */
+        width: 5%;
         font-size: 2em;
+    }
+
+    nav {
+        width: 26%;
+        display: none;
     }
 
     article {
         line-height: 1.5;
+        display: inline-block;
+        width: calc(95%);
     }
 
     h1 {
