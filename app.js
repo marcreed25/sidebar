@@ -6,11 +6,11 @@ let mode = window.getComputedStyle(document.body).getPropertyValue('--mode');
 // Set initial state of sidebar
 if (mode == 'green' || mode == 'orange') {
     // On desktop or tablet
-    alert('d/t');
+    //alert('d/t');
     sidebar.setAttribute('open', 'true'); 
 } else {
     // On mobile
-    alert('m');
+    //alert('m');
     sidebar.setAttribute('open', 'false');
 }
 

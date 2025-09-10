@@ -9,30 +9,46 @@ html {
 
 body {
     margin: 0px;
-    height: 100%;
+    height: fit-content;
     /* background-color: #181818; */
     background-color: var(--mode);
 }
 
 div#whatever {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
 }
 
+#sidebar {
+    display: inline-block;
+    height: calc(100%);
+}
+
 #sidebar[open="true"] {
-    display: block;
-    height: 100%;
+    /* height: 100%; */
     color: white;
     background-color: black;
     padding: 2vh;
-    float: left;
+    /* float: left; */
     box-sizing: border-box;
+
+    button {
+        width: 20%;
+        /* z-index: unset; */
+    }
 }
 
 #sidebar[open="false"] {
     padding: 0;
-    height: auto;
+    /*height: auto;*/
+    opacity: 100%;
+
+    button {
+        /*z-index: 99;*/
+    }
 }
 
 #sidebar div {
@@ -91,14 +107,16 @@ nav li {
 
 article {
     display: inline-block;
-    width: calc(80%);
-    height: 100%;
+    width: calc(60%); /*TODO*/
+    /*height: 100%;*/
+    height: auto;
     color: white;
     box-sizing: border-box;
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    overflow: auto;
+    /* float:inline-start; */
+    /* overflow: auto; */
 }
 
 @media screen and (max-width: 515px) {
@@ -106,7 +124,7 @@ article {
         --mode: red;
     }
 
-    #sidebar {
+    #sidebar[open="true"] {
         /* width: 100%; */
         width: 5%;
         font-size: 2em;
@@ -114,16 +132,26 @@ article {
         height: auto; */
 
         button {
-            width: 100%;
-            z-index: 99;
+            width: initial; /*todo*/
+            /* width: 100%;
+            z-index: 99; */
             /* height: 0;
             padding-bottom: 100%; */
         }
+
+        nav {
+            width: 26%;
+        }
     }
 
-    nav {
-        width: 26%;
-        display: none;
+    #sidebar[open="false"] {
+        button {
+            width: 100%;
+        }
+
+        nav {
+            display: none;
+        }
     }
 
     article {
@@ -146,17 +174,25 @@ article {
         --mode: orange;
     }
 
-    #sidebar {
+    #sidebar[open="true"] {
         width: 30%;
         font-size: 1.5em;
+
+        nav {
+            width: 55%;
+        }
     }
 
-    nav {
-        width: 55%;
+    #sidebar[open="false"] {
+        width: 5%;
+
+        button {
+            width: 100%;
+        }
     }
 
     article {
-        width: calc(70%);
+        width: calc(70%); /*todo*/
         line-height: 1.4;
     }
 
@@ -174,16 +210,29 @@ article {
         --mode: green;
     }
 
-    #sidebar {
+    #sidebar[open="true"] {
         width: 20%;
         font-size: 24px;
+
+        nav {
+            width: 35%;
+        }
     }
 
-    nav {
-        width: 35%;
+    #sidebar[open="false"] {
+        width: 5%;
+
+        button {
+            width: 100%;
+        }
+
+        nav {
+            display: none;
+        }
     }
 
     article {
+        width: calc(70%); /*todo*/
         line-height: 1.5;
     }
 
