@@ -149,6 +149,8 @@ article {
     }
 
     #sidebar[open="false"] {
+        width: 5%;
+
         button {
             width: 100%;
         }
