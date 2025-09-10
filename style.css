@@ -37,18 +37,14 @@ div#whatever {
 }
 
 #sidebar[open="true"] {
-    /* height: 100%; */
     color: white;
-    /* float: left; */
     box-sizing: border-box;
 
     button {
         width: 20%;
-        /* z-index: unset; */
     }
 
     nav {
-        /* width: auto; */
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -58,12 +54,7 @@ div#whatever {
 
 #sidebar[open="false"] {
     padding: 0;
-    /*height: auto;*/
     opacity: 100%;
-
-    button {
-        /*z-index: 99;*/
-    }
 
     nav {
         display: none;
@@ -73,14 +64,9 @@ div#whatever {
 #sidebar div {
     width: 100%;
     height: auto;
-    /* padding-left: auto;
-    padding-right: auto; */
-    /* height: 100%; */
-    /* text-align: center; */
 }
 
 button {
-    /* display: inline-block; */
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -91,11 +77,9 @@ button {
     padding: 0;
     filter: invert(1);
     float: none;
-    /* background: none; */
 }
 
 ul {
-    /* width: auto; */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -120,15 +104,12 @@ nav li {
 article {
     display: inline-block;
     width: calc(60%); /*TODO*/
-    /*height: 100%;*/
     height: auto;
     color: white;
     box-sizing: border-box;
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    /* float:inline-start; */
-    /* overflow: auto; */
 }
 
 @media screen and (max-width: 515px) {
@@ -138,18 +119,10 @@ article {
 
     #sidebar[open="true"] {
         width: 100% !important;
-        /* width: 5%; */
         font-size: 2em;
-        /* padding: 0;
-        height: auto; */
 
         button {
             width: 5%;
-            /* width: initial; */
-            /* width: 100%;
-            z-index: 99; */
-            /* height: 0;
-            padding-bottom: 100%; */
         }
 
         nav {
