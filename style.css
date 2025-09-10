@@ -129,8 +129,8 @@ article {
     }
 
     #sidebar[open="true"] {
-        /* width: 100%; */
-        width: 5%;
+        width: 100%;
+        /* width: 5%; */
         font-size: 2em;
         /* padding: 0;
         height: auto; */
@@ -196,6 +196,7 @@ article {
     }
 
     article {
+        display: unset  !important;
         width: calc(70%); /*todo*/
         line-height: 1.4;
     }
@@ -236,6 +237,7 @@ article {
     }
 
     article {
+        display: unset !important;
         width: calc(70%); /*todo*/
         line-height: 1.5;
     }

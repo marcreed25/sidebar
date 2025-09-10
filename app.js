@@ -34,6 +34,7 @@ function toggleBar() {
             //nav.style.display = 'inline';
 
             sidebar.setAttribute('open', 'true');
+            article.style.display = 'none';
         }
 
         toggle = false;
@@ -52,6 +53,7 @@ function toggleBar() {
             //nav.style.display = 'none';
 
             sidebar.setAttribute('open', 'false');
+            article.style.display = 'unset';
         }
 
         toggle = true;
