@@ -1,5 +1,5 @@
 :root {
-    --mode: red;
+    --mode: 'mobile';
 }
 
 html {
@@ -10,8 +10,7 @@ html {
 body {
     margin: 0px;
     height: fit-content;
-    /* background-color: #181818; */
-    background-color: var(--mode);
+    background-color: #181818;
 }
 
 div#whatever {
@@ -125,7 +124,7 @@ article {
 
 @media screen and (max-width: 515px) {
     :root {
-        --mode: red;
+        --mode: 'mobile';
     }
 
     #sidebar[open="true"] {
@@ -181,7 +180,7 @@ article {
 
 @media screen and (min-width: 516px) and (max-width: 680px) {
     :root {
-        --mode: orange;
+        --mode: 'tablet';
     }
 
     #sidebar[open="true"] {
@@ -218,7 +217,7 @@ article {
 
 @media screen and (min-width: 681px) {
     :root {
-        --mode: green;
+        --mode: 'desktop';
     }
 
     #sidebar[open="true"] {

@@ -3,7 +3,7 @@ var sidebar = document.getElementById('sidebar');
 let mode = window.getComputedStyle(document.body).getPropertyValue('--mode');
 
 // Set initial state of sidebar
-if (mode == 'green' || mode == 'orange') {
+if (mode == 'desktop' || mode == 'tablet') {
     // On desktop or tablet
     sidebar.setAttribute('open', 'true'); 
 } else {
@@ -20,7 +20,7 @@ function toggleBar() {
         sidebar.setAttribute('open', 'false');
 
         // If mobile
-        if (mode == 'red') {
+        if (mode == 'mobile') {
             // Show article
             article.style.display = 'unset';
         }
@@ -28,7 +28,7 @@ function toggleBar() {
         sidebar.setAttribute('open', 'true');
 
         // If mobile
-        if (mode == 'red') {
+        if (mode == 'mobile') {
             // Hide article
             article.style.display = 'none';
         }
