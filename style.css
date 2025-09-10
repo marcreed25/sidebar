@@ -129,7 +129,7 @@ article {
     }
 
     #sidebar[open="true"] {
-        width: 100%;
+        width: 100% !important;
         /* width: 5%; */
         font-size: 2em;
         /* padding: 0;
@@ -160,7 +160,11 @@ article {
         }
     }
 
-    article {
+    #sidebar[open="true"] + article {
+        display: none;
+    }
+
+    #sidebar[open="false"] + article {
         line-height: 1.5;
         display: inline-block;
         width: calc(95%);
