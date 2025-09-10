@@ -26,12 +26,12 @@ function toggleBar() {
         // article.style.width = 'calc(95%)';
         if (mode == 'green' || mode == 'orange') {
             // On desktop or tablet
-            nav.style.display = 'none';
+            //nav.style.display = 'none';
 
             sidebar.setAttribute('open', 'false');
         } else {
             // On mobile
-            nav.style.display = 'inline';
+            //nav.style.display = 'inline';
 
             sidebar.setAttribute('open', 'true');
         }
@@ -44,12 +44,12 @@ function toggleBar() {
 
         if (mode == 'green' || mode == 'orange') {
             // On desktop or tablet
-            nav.style.display = 'inline';
+            //nav.style.display = 'inline';
 
             sidebar.setAttribute('open', 'true');
         } else {
             // On mobile
-            nav.style.display = 'none';
+            //nav.style.display = 'none';
 
             sidebar.setAttribute('open', 'false');
         }
