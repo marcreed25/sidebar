@@ -124,7 +124,7 @@ article {
 
 @media screen and (max-width: 515px) {
     :root {
-        --mode: 'mobile';
+        --mode: mobile;
     }
 
     #sidebar[open="true"] {
@@ -180,7 +180,7 @@ article {
 
 @media screen and (min-width: 516px) and (max-width: 680px) {
     :root {
-        --mode: 'tablet';
+        --mode: tablet;
     }
 
     #sidebar[open="true"] {
@@ -217,7 +217,7 @@ article {
 
 @media screen and (min-width: 681px) {
     :root {
-        --mode: 'desktop';
+        --mode: desktop;
     }
 
     #sidebar[open="true"] {
