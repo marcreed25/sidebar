@@ -163,7 +163,7 @@ article {
     }
 }
 
-@media screen and (min-width: 516px) and (max-width: 680px) {
+@media screen and (min-width: 515px) and (max-width: 680px) {
     :root {
         --mode: tablet;
     }
@@ -202,7 +202,7 @@ article {
     }
 }
 
-@media screen and (min-width: 681px) {
+@media screen and (min-width: 680px) {
     :root {
         --mode: desktop;
     }
