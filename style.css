@@ -7,7 +7,7 @@ body {
     background-color: #181818;
 }
 
-div#whatever {
+div#container {
     display: flex;
     flex-direction: row;
     width: 100%;
