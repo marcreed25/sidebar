@@ -103,7 +103,6 @@ nav li {
 
 article {
     display: inline-block;
-    width: calc(60%); /*TODO*/
     height: auto;
     color: white;
     box-sizing: border-box;
@@ -151,7 +150,7 @@ article {
     #sidebar[open="false"] + article {
         line-height: 1.5;
         display: inline-block !important;
-        width: calc(95%);
+        width: calc(90%);
     }
 
     h1 {
@@ -187,9 +186,16 @@ article {
         }
     }
 
+    #sidebar[open="true"] + article {
+        width: calc(80%);
+    }
+
+    #sidebar[open="false"] + article {
+        width: calc(90%);
+    }
+
     article {
         display: unset  !important;
-        width: calc(70%); /*todo*/
         line-height: 1.4;
     }
 
@@ -230,9 +236,16 @@ article {
         }
     }
 
+    #sidebar[open="true"] + article {
+        width: calc(85%);
+    }
+
+    #sidebar[open="false"] + article {
+        width: calc(90%);
+    }
+
     article {
         display: unset !important;
-        width: calc(70%); /*todo*/
         line-height: 1.5;
     }
 
