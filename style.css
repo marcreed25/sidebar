@@ -5,6 +5,7 @@
 body {
     margin: 0;
     background-color: #181818;
+    padding: 2vh;
 }
 
 div#container {
@@ -16,11 +17,7 @@ div#container {
 }
 
 #sidebar {
-    display: inline-block;
-}
-
-#fixed-sidebar {
-    padding-top: 2vh;
+    display: block;
 }
 
 #sidebar[open="true"] #fixed-sidebar {
@@ -31,6 +28,7 @@ div#container {
     width: inherit !important;
     height: 100%;
     background-color: black;
+    padding-top: 2vh;
 }
 
 #sidebar[open="false"] #fixed-sidebar {
@@ -135,8 +133,10 @@ article {
     #sidebar[open="false"] {
         width: 5%;
 
-        button {
+        #toggle {
             width: 100%;
+            margin-left: unset;
+            margin-right: unset;
         }
 
         nav {
@@ -180,8 +180,10 @@ article {
     #sidebar[open="false"] {
         width: 5%;
 
-        button {
+        #toggle {
             width: 100%;
+            margin-left: unset;
+            margin-right: unset;
         }
     }
 
@@ -217,8 +219,10 @@ article {
     #sidebar[open="false"] {
         width: 5%;
 
-        button {
+        #toggle {
             width: 100%;
+            margin-left: unset;
+            margin-right: unset;
         }
 
         nav {
