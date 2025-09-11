@@ -29,18 +29,19 @@ div#container {
     left: 0;
     bottom: 0;
     width: inherit !important;
+    height: 100%;
     background-color: black;
 }
 
 #sidebar[open="false"] #fixed-sidebar {
-    height: auto;
+    height: 100vh;
 }
 
 #sidebar[open="true"] {
     color: white;
     box-sizing: border-box;
 
-    button {
+    #toggle {
         width: 20%;
     }
 
@@ -61,17 +62,17 @@ div#container {
     }
 }
 
-#sidebar div {
+#toggle-container {
     width: 100%;
-    height: auto;
+    height: 7%;
 }
 
-button {
+#toggle {
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 20%;
-    height: 7%;
+    height: 100%;
     min-width: 31.75px;
     min-height: 24.5px;
     padding: 0;
