@@ -20,7 +20,7 @@ div#container {
 }
 
 #fixed-sidebar {
-    padding: 2vh;
+    padding-top: 2vh;
 }
 
 #sidebar[open="true"] #fixed-sidebar {
@@ -74,6 +74,7 @@ div#container {
     width: 20%;
     height: 100%;
     min-width: 31.75px;
+    max-width: 34px;
     min-height: 24.5px;
     padding: 0;
     filter: invert(1);
