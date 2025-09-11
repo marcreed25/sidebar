@@ -112,7 +112,7 @@ article {
     padding-right: 50px;
 }
 
-@media screen and (max-width: 515px) {
+@media (width <= 515px) {
     :root {
         --mode: mobile;
     }
@@ -163,7 +163,7 @@ article {
     }
 }
 
-@media screen and (min-width: 515px) and (max-width: 680px) {
+@media (515px < width <= 680px) {
     :root {
         --mode: tablet;
     }
@@ -202,7 +202,7 @@ article {
     }
 }
 
-@media screen and (min-width: 680px) {
+@media (width > 680px) {
     :root {
         --mode: desktop;
     }
