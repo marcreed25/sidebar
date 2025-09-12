@@ -12,7 +12,7 @@ On mobile the sidebar is closed by default on page load.
 
 Here is the page on desktop with the sidebar open.
 
-<img src="desktop_open.png" height="400">
+![](desktop_open.png "")
 
 Here is what it looks like when you scroll down. As you see, the sidebar is fixed, so only the content scrolls.
 
@@ -42,14 +42,14 @@ The scrolled-down behaviour is the same for the tablet mode.
 
 Here is how it looks like on mobile with the sidebar closed (the default).
 
-![](mobile_closed.jpeg "")
+<img src="mobile_closed.jpeg" height="400">
 
 Here is how it looks like on mobile with the sidebar closed and the page scrolled down. It behaves as on desktop/tablet.
 
-![](mobile_closed_scrolled_down.jpeg "")
+<img src="mobile_closed_scrolled_down.jpeg" height="400">
 
 Here is how it looks like on mobile with the sidebar open.
 
-![](mobile_open.jpeg "")
+<img src="mobile_open.jpeg" height="400">
 
 *~Marc Reed*
