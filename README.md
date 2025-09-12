@@ -10,9 +10,9 @@ On mobile the sidebar is closed by default on page load.
 
 ### Desktop
 
-Here is the page on desktop with the sidebar open. 
+Here is the page on desktop with the sidebar open.
 
-<img src="desktop_open.png" width="200">
+<img src="desktop_open.png" width="400">
 
 Here is what it looks like when you scroll down. As you see, the sidebar is fixed, so only the content scrolls.
 
