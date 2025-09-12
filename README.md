@@ -30,11 +30,11 @@ Here is what it looks like when you scroll down with the sidebar closed on deskt
 
 Here is what it might look like on a tablet (I don't own one) with the sidebar open.
 
-![](tablet_open.png "")
+<img src="tablet_open.png" height="400">
 
 Here is what it might look like on a tablet with the sidebar closed.
 
-![](tablet_closed.png "")
+<img src="tablet_closed.png" height="400">
 
 The scrolled-down behaviour is the same for the tablet mode.
 
