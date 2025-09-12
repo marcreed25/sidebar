@@ -42,14 +42,14 @@ The scrolled-down behaviour is the same for the tablet mode.
 
 Here is how it looks like on mobile with the sidebar closed (the default).
 
-<img src="mobile_closed.jpeg" height="400">
+<img src="mobile_closed.jpeg" height="450">
 
 Here is how it looks like on mobile with the sidebar closed and the page scrolled down. It behaves as on desktop/tablet.
 
-<img src="mobile_closed_scrolled_down.jpeg" height="400">
+<img src="mobile_closed_scrolled_down.jpeg" height="450">
 
 Here is how it looks like on mobile with the sidebar open.
 
-<img src="mobile_open.jpeg" height="400">
+<img src="mobile_open.jpeg" height="450">
 
 *~Marc Reed*
